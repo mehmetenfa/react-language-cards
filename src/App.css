@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+:root{
+
+ --color1: #A0A603; 
+ --color2: #D9D8D7; 
+ --color3: #F27B35; 
+ --color4: #D93E30; 
+ --color5: #8C1414; 
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--color2);
+}
+.App {
+  background-color: var(--color1);
+  width: 300px;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-template-columns: 100px 100px;
+  padding: 1rem;
+  gap: 0.5rem;
+  
+ 
+}
+.reactLogo {
+  width: 200px;
+  text-align: center;
+  margin: 1rem;
+}
+.top-h2 {
+  text-align: center;
+  margin: 0.5rem;
+}
+.container{
+  background-color: var(--color3);
+  border-radius: 15px;
+  padding: 0.5rem;
+  
+}
+.container img {
+  max-width: 75px;
+  max-height: 75px;
+}
+.container p {
+  font-size: small;
+  text-align: left;
+  list-style-position: inside;
+  width: 85px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.container:hover{
+  box-shadow: 0 0 8px var(--color5);
+  box-shadow: 0 0 8px var(--color5);
+
+}
+.container:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  
 }
