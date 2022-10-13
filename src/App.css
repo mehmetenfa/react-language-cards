@@ -1,58 +1,50 @@
-:root{
-
- --color1: #A0A603; 
- --color2: #D9D8D7; 
- --color3: #F27B35; 
- --color4: #D93E30; 
- --color5: #8C1414; 
-
+:root {
+  --color1: #a0a603;
+  --color2: #d9d8d7;
+  --color3: #f27b35;
+  --color4: #d93e30;
+  --color5: #8c1414;
 }
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: var(--color2);
+  background-color: #f0e68c;
 }
-.App {
-  background-color: var(--color1);
-  width: 300px;
+.down-container {
+  background-color: #ff7f00;
+  width: 350px;
   border-radius: 20px;
 }
-
-.main-container{
+.main-container {
   display: grid;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   grid-template-columns: auto auto;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 150px 150px;
   padding: 1rem;
   gap: 0.5rem;
-  
- 
 }
-.reactLogo {
+.reactlogo {
   width: 200px;
   text-align: center;
   margin: 1rem;
 }
-.top-h2 {
+h2 {
   text-align: center;
   margin: 0.5rem;
 }
-.container{
-  background-color: var(--color3);
+.container {
+  background-color: white;
   border-radius: 15px;
   padding: 0.5rem;
-  
 }
 .container img {
   max-width: 75px;
@@ -65,15 +57,11 @@ body {
   width: 85px;
   height: 100px;
 }
-
-
-.container:hover{
+.container:hover {
   box-shadow: 0 0 8px var(--color5);
   box-shadow: 0 0 8px var(--color5);
-
 }
 .container:hover img {
   transform: scale(1.2);
   transition: all 0.5s ease;
-  
 }
