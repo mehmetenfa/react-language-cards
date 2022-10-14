@@ -5,7 +5,7 @@ import reactsvg from "./assets/react.svg";
 
 function App() {
   return (
-    <>
+    <div className="bos-div">
       <img className="reactlogo" src={reactsvg} alt="react-logo" />
       <div className="down-container">
         <div>
@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
    
