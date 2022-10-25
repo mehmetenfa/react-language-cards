@@ -1,4 +1,4 @@
-# Language Cards 
+# Language Cards 🚀
 
   Project Name       |Libraries and Technologies I use     |How does my project look   
 :-------------------------|-------------------------|-------------------------
@@ -38,10 +38,6 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Project 003 Snapshot](language-cards.gif)
-
 ## Objective
 
 Build a Languages Cards App using ReactJS.
@@ -75,5 +71,3 @@ Build a Languages Cards App using ReactJS.
 ## Notes
 
 - You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
